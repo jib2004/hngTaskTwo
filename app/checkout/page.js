@@ -4,13 +4,14 @@ import { FaAngleLeft, FaAngleRight, FaStar } from "react-icons/fa"
 import shoe from '../assets/image/Frame 160.png'
 import truck from '../assets/image/Group (2).png'
 import wallet from '../assets/image/Vector.png'
+import Link from "next/link"
 
 const page = () => {
   return (
     <div className="flex flex-col min-h-screen xl:items-center xl:flex-row">
     
-    <header className="bg-white  py-4 px-8 flex flex-col justify-between items-center xl:flex-row xl:items-start">
-        <div className="border-b border-[#C9C9C9] xl:border-none">
+    <header className=" xl:basis-[65%]  py-4 px-8 flex flex-col justify-between xl:justify-start xl:gap-8 items-center xl:flex-row xl:items-start">
+        <div className="border-b border-[#C9C9C9] xl:border-none ">
             <div className=" relative w-[334px] h-[238px] bg-[#f2f2f2] flex justify-center items-center rounded-[8px] border xl:w-[321px] xl:h-[323px] xl:rounded-[16px] ">
                     <Image src={dispayshoe} className=" xl:size-[261px] object-cover"/>
 
@@ -57,8 +58,13 @@ const page = () => {
       </div>
 
       <div className="flex flex-col w-full gap-2 p-6 ">
-     <div>
-        <span className="text-[14px] leading-[21px] tracking-[8%] text-[#1e1e1e]">Quantity:  </span> <button className="w-[40px] h-[32px] bg-[#222222] text-white">-</button> <span className=" w-[40px] h-[32px]   border border-[#222222]">1</span> <button className="w-[40px] h-[32px] bg-[#222222] text-white">+</button>
+     <div className="flex gap-3 items-center">
+        <span className="text-[14px] leading-[21px] tracking-[8%] text-[#1e1e1e]">Quantity: </span> 
+        <div className="flex">
+        <button className=" rounded-s-[8px] w-[40px] h-[32px] bg-[#222222] text-white">-</button> 
+        <input type="text" value={1} disabled className="w-[40px] h-[32px] border-[2px] border-[#222222] text-center " /> 
+        <button className= " rounded-e-[8px] w-[40px] h-[32px] bg-[#222222] text-white">+</button>
+        </div>
      </div>
 
      <div className="flex items-center gap-2">
@@ -90,7 +96,7 @@ const page = () => {
      <p className="font-light leading-[21px] text-[14px] text-center text-[#006200]">Pickup & Pay on collection available</p>
 
         <div className=" flex flex-col gap-4 xl:flex  xl:gap-6">
-        <button className="px-[10px] py-[8px] w-[319px] h-[53px] border border-[#222222] bg-white text-[#222222] rounded-[8px]">Buy Now</button>
+        <Link href={'/checkoutProcess'}><button className="px-[10px] py-[8px] w-[319px] h-[53px] border border-[#222222] bg-white text-[#222222] rounded-[8px]">Buy Now</button></Link>  
         <button className="px-[10px] py-[8px] w-[319px] h-[53px]  text-white bg-[#222222] rounded-[8px]">Add to Cart</button>
         </div>
       </div>

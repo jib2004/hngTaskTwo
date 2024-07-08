@@ -8,7 +8,7 @@ const Timbu = () => {
     <div className=' p-2 xl:p-0 bg-[#222222] h-[373px]  md:h-[720px]  flex relative  justify-around items-center'>
         <div className="flex flex-col justify-between  h-[75%] items-center">
             <h1 className=' font-medium text-[32px] xl:text-[128px] text-white leading-[38px] xl:leading-[153px]'>TIMBU</h1>
-            <div className="hidden xl:-block">
+            <div className="hidden xl:block">
                 <Image src={shoe} alt="Image of a shoe" className=" size-auto object-contain"/>
             </div>
         </div>
