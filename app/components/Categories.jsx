@@ -18,7 +18,7 @@ const Categories = () => {
             <li className='w-[84px] cursor-pointer md:w-[206px] h-[40px] md:[68px] border p-[8px] md:p-[10px] border-[#c1c1c1c1] rounded-[100px] text-[13px] md:text-[24px] flex items-center justify-center font-medium leading-[24px] md:leading-[36px] md:border-[2px] text-[#1e1e1e]'>Jewelry</li>
         </ul>
 
-        <div className='pl-[15px] grid grid-cols-2 md:grid-cols-3 xl:grid-cols-6 gap-3 p-2'>
+        <div className='md:pl-[15px] grid grid-cols-2 md:grid-cols-3 xl:grid-cols-6 gap-2 px-2 md:gap-3 py-2 md:p-2'>
             <CategoriesCard imgSrc={womenShoes}  categoryName={"Shoes"} />
             <CategoriesCard imgSrc={bag}  categoryName={"Bags"} />
             <CategoriesCard imgSrc={womenShoes}  categoryName={"Jackets"} />
