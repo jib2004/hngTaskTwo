@@ -45,11 +45,11 @@ const Navbar = () => {
         <li>
           <Link href="/" className=' font-semibold'>Home</Link>
         </li>
-        <li>Men</li>
-        <li>Women</li>
-        <li>Kids</li>
-        <li>Accessories</li>
-        <li className='flex items-center gap-[4px]'> More <FaAngleDown /> </li>
+        <li className=' cursor-pointer'>Men</li>
+        <li className=' cursor-pointer'>Women</li>
+        <li className=' cursor-pointer'>Kids</li>
+        <li className=' cursor-pointer'>Accessories</li>
+        <li className='flex items-center gap-[4px] cursor-pointer'> More <FaAngleDown /> </li>
       </ul>
     </div>
 
