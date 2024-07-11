@@ -10,7 +10,7 @@ const page = () => {
                 <h1 className=' font-semibold text-[20px] leading-[30px] text-center py-6 text-[#1e1e1e] border-b xl:border-none border-[#c9c9c9]'>Order Summary</h1>
                 <div className="flex gap-3 px-4 py-2">
                     <div>
-                        <Image src={shoe}/>
+                        <Image src={shoe} alt="image of shoe"/>
                     </div>
                     <div>
                         <h3 className=" font-medium text-[18px] leading-[27px] text-[#1e1e1e]">Burberry shine</h3>
@@ -62,20 +62,20 @@ const page = () => {
                         <input type="text" placeholder="23rd, Boulevard Ave" className="border border-[#c1c1c1] px-[10px] py-[16px] rounded-[8px]"/>
                     </div>
 
-                    <div className="flex  flex-wrap xl:flex-nowrap items-center gap-2">
-                    <div className="flex flex-col gap-2 xl:basis-[33%]">
+                    <div className="flex  flex-wrap md:flex-nowrap items-center gap-2">
+                    <div className="flex flex-col gap-2 md:basis-[33%]">
                         <label htmlFor="" className="text-[#1e1e1e] font-semibold text-[14px] leading-[21px]">City</label>
                         <input type="text" placeholder="Enter City" className="border border-[#c1c1c1] px-[10px] py-[16px] rounded-[8px] w-[171px] xl:w-auto"  />
                     </div>
 
-                    <div className="flex flex-col gap-2 xl:basis-[33%]">
+                    <div className="flex flex-col gap-2 md:basis-[33%]">
                         <label htmlFor="" className="text-[#1e1e1e] font-semibold text-[14px leading-[21px]">State</label>
                         <select name="" id="" className="border border-[#c1c1c1] px-[10px] py-[16px] rounded-[8px] w-[171px] xl:w-auto">
                             <option value="">Select state</option>
                         </select>
                     </div>
 
-                    <div className="flex flex-col gap-2 xl:basis-[33%]">
+                    <div className="flex flex-col gap-2 md:basis-[33%]">
                         <label htmlFor="" className="text-[#1e1e1e] font-semibold text-[14px leading-[21px]">Zip</label>
                         <input type="text" placeholder="Zip code" className="border border-[#c1c1c1] px-[10px] py-[16px] rounded-[8px] w-[171px] xl:w-auto" />
                     </div>
@@ -94,9 +94,9 @@ const page = () => {
         <h1 className=' font-semibold text-[20px] leading-[30px] text-center py-6 text-[#1e1e1e] border-b border-[#c9c9c9]'>Payment Method</h1>
 
         <div className="flex gap-4 xl:justify-between px-4 py-2">
-            <div className="w-[111px] h-[84px] bg-[#222222] flex flex-col items-center justify-center rounded-[8px] xl:basis-[33%] xl:h-[136px]"></div>
-            <div className="w-[111px] h-[84px] border border-[#c1c1c1] flex flex-col  items-center justify-center rounded-[8px] xl:basis-[33%] xl:h-[136px]"></div>
-            <div className="w-[111px] h-[84px] border border-[#c1c1c1] flex flex-col  items-center justify-center rounded-[8px] xl:basis-[33%] xl:h-[136px]"></div>
+            <div className="w-[111px] h-[84px] bg-[#222222] flex flex-col items-center justify-center rounded-[8px] md:basis-[33%] md:h-[136px]"></div>
+            <div className="w-[111px] h-[84px] border border-[#c1c1c1] flex flex-col  items-center justify-center rounded-[8px] md:basis-[33%] md:h-[136px]"></div>
+            <div className="w-[111px] h-[84px] border border-[#c1c1c1] flex flex-col  items-center justify-center rounded-[8px] md:basis-[33%] md:h-[136px]"></div>
         </div>
 
         <div className=" border-b border-[#C9C9C9] xl:border-none">
@@ -111,7 +111,7 @@ const page = () => {
                         <input type="text" placeholder="0000 0000 0000 0000" className="border border-[#c1c1c1] px-[10px] py-[16px] rounded-[8px]" />
                     </div>
 
-                    <div className="flex flex-wrap xl:flex-nowrap gap-2 w-full items-end">
+                    <div className="flex flex-wrap md:flex-nowrap gap-2 w-full items-end">
                     <div className="flex flex-col gap-2 basis-[33%]">
                         <label htmlFor="" className="text-[#1e1e1e] font-semibold text-[14px leading-[21px]">Expiry</label>
                         <select name="" id="" className="border border-[#c1c1c1] px-[10px] py-[16px] rounded-[8px] w-[171px] xl:w-auto">

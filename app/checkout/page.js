@@ -2,18 +2,21 @@ import Image from "next/image"
 import dispayshoe from "../assets/image/61oejShhPyL._SY625_ 2.png"
 import { FaAngleLeft, FaAngleRight, FaStar } from "react-icons/fa"
 import shoe from '../assets/image/Frame 160.png'
+import shoe2 from '../assets/image/Frame 159.png'
+import shoe3 from '../assets/image/Frame 161.png'
+import shoe4 from '../assets/image/Frame 162.png'
 import truck from '../assets/image/Group (2).png'
 import wallet from '../assets/image/Vector.png'
 import Link from "next/link"
 
 const page = () => {
   return (
-    <div className="flex flex-col min-h-screen xl:items-center xl:flex-row">
+    <div className="flex flex-col min-h-screen xl:items-center md:flex-row">
     
-    <header className=" xl:basis-[65%]  py-4 px-8 flex flex-col justify-between xl:justify-start xl:gap-8 items-center xl:flex-row xl:items-start">
+    <header className=" xl:basis-[65%]  py-4 px-8 flex flex-col justify-between md:justify-start xl:gap-8 items-center xl:flex-row xl:items-start">
         <div className="border-b border-[#C9C9C9] xl:border-none ">
             <div className=" relative w-[334px] h-[238px] bg-[#f2f2f2] flex justify-center items-center rounded-[8px] border xl:w-[321px] xl:h-[323px] xl:rounded-[16px] ">
-                    <Image src={dispayshoe} className=" xl:size-[261px] object-cover"/>
+                    <Image src={dispayshoe} alt="image of shoe" className=" xl:size-[261px] object-cover"/>
 
                     <div className="size-[32px] absolute bg-white flex justify-center items-center rounded-full xl:hidden -left-4 shadow-lg"><FaAngleLeft /></div>
                     <div className="size-[32px] absolute bg-white flex justify-center items-center rounded-full xl:hidden -right-4 shadow-lg"><FaAngleRight/></div>
@@ -21,19 +24,19 @@ const page = () => {
 
             <div className="flex w-[304px] mx-auto my-3 justify-between">
                 <div >
-                    <Image src={shoe}/>
+                    <Image src={shoe2} alt="Image of a shoe"/>
                 </div>
 
                 <div >
-                    <Image src={shoe}/>
+                    <Image src={shoe} alt="Image of a shoe"/>
                 </div>
 
                 <div >
-                    <Image src={shoe}/>
+                    <Image src={shoe3} alt="Image of a shoe"/>
                 </div>
 
                 <div >
-                    <Image src={shoe}/>
+                    <Image src={shoe4} alt="Image of a shoe"/>
                 </div>
             </div>
         </div>
