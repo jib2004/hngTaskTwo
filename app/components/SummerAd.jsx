@@ -16,7 +16,7 @@ const SummerAd = () => {
         
     <Bubbles/>
     </div>
-    <Image src={hat} alt='Image of hat' className='hidden xl:block !opacity-100 absolute top-0 right-[4.75rem] h-[507px] object-cover rounded-e-[24px]'/>
+    <Image src={hat} alt='Image of hat' className='hidden xl:block !opacity-100 absolute top-0 right-[4.75rem] w-[1300px] h-[507px] object-cover rounded-e-[24px]'/>
     </div>
   )
 }
