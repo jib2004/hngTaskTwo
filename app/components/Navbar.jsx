@@ -28,7 +28,7 @@ const Navbar = () => {
 
     <div>
       <Link href="/">
-      <Image src={logo} className=' object-contain  size-8 md:size-auto'/>
+      <Image src={logo} alt='main logo' className=' object-contain  size-8 md:size-auto'/>
       </Link>
     </div>
 
@@ -61,7 +61,7 @@ const Navbar = () => {
       </div>
 
       <div className=' hidden md:flex items-center gap-[4px]'>
-        <Image src={unitedKingdom} />
+        <Image src={unitedKingdom} alt='flag' />
         <span className='flex items-center'>EN/Currency <FaAngleDown /></span>
       </div>
 
