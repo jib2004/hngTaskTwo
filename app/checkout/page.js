@@ -11,9 +11,9 @@ import Link from "next/link"
 
 const page = () => {
   return (
-    <div className="flex flex-col min-h-screen xl:items-center md:flex-row">
+    <div className="flex flex-col min-h-screen   md:justify-between md:px-2 xl:px-4 md:py-2  md:items-start md:flex-row">
     
-    <header className=" xl:basis-[65%]  py-4 px-8 flex flex-col justify-between md:justify-start xl:gap-8 items-center xl:flex-row xl:items-start">
+    <header className=" xl:basis-[65%]  py-4 px-8 flex flex-col justify-between   md:justify-start xl:gap-8 items-center xl:flex-row xl:items-start">
         <div className="border-b border-[#C9C9C9] xl:border-none ">
             <div className=" relative w-[334px] h-[238px] bg-[#f2f2f2] flex justify-center items-center rounded-[8px] border xl:w-[321px] xl:h-[323px] xl:rounded-[16px] ">
                     <Image src={dispayshoe} alt="image of shoe" className=" xl:size-[261px] object-cover"/>
@@ -108,9 +108,9 @@ const page = () => {
     </header>
 
     
-    <main className=" xl:h-[530px] xl:border-[2px] xl:border-[#c1c1c1]  xl:rounded-[16px]">
+    <main className=" xl:h-[530px] md:border-[2px] md:border-[#c1c1c1]  md:rounded-[16px]">
       <div className="flex flex-col gap-4">
-        <h2 className="text-[20px] leading-[30px] text-[#1e1e1e] text-center border-y  py-4 font-medium">Delivery & Returns</h2>
+        <h2 className="text-[20px] leading-[30px] text-[#1e1e1e] text-center border-y md:border-none  py-4 font-medium">Delivery & Returns</h2>
 
 
 

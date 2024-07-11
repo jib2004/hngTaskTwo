@@ -5,7 +5,7 @@ const page = () => {
   return (
     <div className=" xl:py-2 xl:px-4   xl:flex xl:flex-col xl:gap-4">
         <div className="">
-            <div  className="xl:flex xl:flex-row-reverse xl:justify-end xl:gap-4 ">
+            <div  className="xl:flex  xl:flex-row-reverse xl:justify-between xl:gap-4 ">
                 <div className="xl:basis-[25%] xl:border relative  xl:border-[#c1c1c1] xl:rounded-[16px] xl:bg-white">
                 <h1 className=' font-semibold text-[20px] leading-[30px] text-center py-6 text-[#1e1e1e] border-b xl:border-none border-[#c9c9c9]'>Order Summary</h1>
                 <div className="flex gap-3 px-4 py-2">
