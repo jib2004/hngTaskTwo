@@ -10,12 +10,12 @@ const Categories = () => {
   return (
     <div className='overflow-x-hidden '>
         <ul className='px-[24px] w-[480px] h-40px flex gap-[10px] mb-[15px] md:w-full md:justify-around'>
-            <li className='w-[84px] md:w-[206px] h-[40px] md:[68px] border p-[8px] md:p-[10px] border-[#c1c1c1c1] rounded-[100px] text-[13px] md:text-[24px] flex items-center justify-center font-medium leading-[24px] md:leading-[36px] md:border-[2px] text-[#1e1e1e]'>Men</li>
-            <li className='w-[84px] md:w-[206px] h-[40px] md:[68px] border p-[8px] md:p-[10px] border-[#c1c1c1c1] rounded-[100px] text-[13px] md:text-[24px] flex items-center justify-center font-medium leading-[24px] md:leading-[36px]  text-[white] bg-[#1e1e1e]'>Women</li>
-            <li className='w-[84px] md:w-[206px] h-[40px] md:[68px] border p-[8px] md:p-[10px] border-[#c1c1c1c1] rounded-[100px] text-[13px] md:text-[24px] flex items-center justify-center font-medium leading-[24px] md:leading-[36px] md:border-[2px] text-[#1e1e1e]'>Kids</li>
-            <li className='w-[84px] md:w-[206px] h-[40px] md:[68px] border p-[8px] md:p-[10px] border-[#c1c1c1c1] rounded-[100px] text-[13px] md:text-[24px] flex items-center justify-center font-medium leading-[24px] md:leading-[36px] md:border-[2px] text-[#1e1e1e]'>Perfumes</li>
-            <li className='w-[84px] md:w-[206px] h-[40px] md:[68px] border p-[8px] md:p-[10px] border-[#c1c1c1c1] rounded-[100px] text-[13px] md:text-[24px] flex items-center justify-center font-medium leading-[24px] md:leading-[36px] md:border-[2px] text-[#1e1e1e]'>Sport</li>
-            <li className='w-[84px] md:w-[206px] h-[40px] md:[68px] border p-[8px] md:p-[10px] border-[#c1c1c1c1] rounded-[100px] text-[13px] md:text-[24px] flex items-center justify-center font-medium leading-[24px] md:leading-[36px] md:border-[2px] text-[#1e1e1e]'>Jewelry</li>
+            <li className='w-[84px] cursor-pointer md:w-[206px] h-[40px] md:[68px] border p-[8px] md:p-[10px] border-[#c1c1c1c1] rounded-[100px] text-[13px] md:text-[24px] flex items-center justify-center font-medium leading-[24px] md:leading-[36px] md:border-[2px] text-[#1e1e1e]'>Men</li>
+            <li className='w-[84px] cursor-pointer md:w-[206px] h-[40px] md:[68px] border p-[8px] md:p-[10px] border-[#c1c1c1c1] rounded-[100px] text-[13px] md:text-[24px] flex items-center justify-center font-medium leading-[24px] md:leading-[36px]  text-[white] bg-[#1e1e1e]'>Women</li>
+            <li className='w-[84px] cursor-pointer md:w-[206px] h-[40px] md:[68px] border p-[8px] md:p-[10px] border-[#c1c1c1c1] rounded-[100px] text-[13px] md:text-[24px] flex items-center justify-center font-medium leading-[24px] md:leading-[36px] md:border-[2px] text-[#1e1e1e]'>Kids</li>
+            <li className='w-[84px] cursor-pointer md:w-[206px] h-[40px] md:[68px] border p-[8px] md:p-[10px] border-[#c1c1c1c1] rounded-[100px] text-[13px] md:text-[24px] flex items-center justify-center font-medium leading-[24px] md:leading-[36px] md:border-[2px] text-[#1e1e1e]'>Perfumes</li>
+            <li className='w-[84px] cursor-pointer md:w-[206px] h-[40px] md:[68px] border p-[8px] md:p-[10px] border-[#c1c1c1c1] rounded-[100px] text-[13px] md:text-[24px] flex items-center justify-center font-medium leading-[24px] md:leading-[36px] md:border-[2px] text-[#1e1e1e]'>Sport</li>
+            <li className='w-[84px] cursor-pointer md:w-[206px] h-[40px] md:[68px] border p-[8px] md:p-[10px] border-[#c1c1c1c1] rounded-[100px] text-[13px] md:text-[24px] flex items-center justify-center font-medium leading-[24px] md:leading-[36px] md:border-[2px] text-[#1e1e1e]'>Jewelry</li>
         </ul>
 
         <div className='pl-[15px] grid grid-cols-2 md:grid-cols-3 xl:grid-cols-6 gap-3 p-2'>
