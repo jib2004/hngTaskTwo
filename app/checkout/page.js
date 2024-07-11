@@ -82,17 +82,17 @@ const page = () => {
      <div className="flex items-center gap-2">
         <span className=" leading-[21px] text-[14px] xl:text-[16px]">Color:</span> 
          <div className="size-[32px] text-[14px]  font-medium  flex justify-center items-center border border-[#c1c1c1] rounded-[8px]">
-            <div className="size-[24px] rounded-[4px] bg-[#ebcdd5]"></div>
+            <div className="size-[24px] rounded-[4px] cursor-pointer bg-[#ebcdd5]"></div>
         </div> 
          <div className="size-[32px] text-[14px] flex justify-center items-center font-medium   border border-[#c1c1c1] rounded-[8px]">
-            <div className="size-[24px] rounded-[4px] bg-[#4444FF]"></div>
+            <div className="size-[24px] rounded-[4px] cursor-pointer bg-[#4444FF]"></div>
         </div> 
          <div className="size-[32px] text-[14px]  font-medium  flex justify-center items-center border border-[#c1c1c1] rounded-[8px]">
-            <div className="size-[24px] rounded-[4px] bg-[#FF4646]"></div>
+            <div className="size-[24px] rounded-[4px] cursor-pointer bg-[#FF4646]"></div>
         </div> 
          <div className="size-[32px] text-[14px]  font-medium  flex justify-center items-center border border-[#c1c1c1] rounded-[8px]">
 
-   <div className="size-[24px] rounded-[4px] bg-[#242425]"></div>     
+   <div className="size-[24px] rounded-[4px] cursor-pointer bg-[#242425]"></div>     
          </div>
      </div>
 
