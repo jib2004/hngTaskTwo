@@ -21,15 +21,17 @@ const Navbar = () => {
   }
   
   return (
-    <nav className='  md:h-max-[53px] md:gap-[44px]  flex  justify-between md:justify-around items-center border-b border-[#C9C9C9] px-4 py-2'>
-       <div className=' w-fit  xl:hidden text-[2rem]'>
+    <nav className='md:h-max-[53px] md:gap-[44px]  flex  justify-between md:justify-around items-center border-b border-[#C9C9C9] px-4 py-2'>
+       <div className=' flex items-center gap-2 xl:block xl:gap-0'>       
+        <div className=' w-fit  xl:hidden text-[2rem]'>
         <GiHamburgerMenu onClick={handleMenu} />
     </div>
 
     <div>
-      <Link href="/">
-      <Image src={logo} alt='main logo' className=' object-contain  size-8 md:size-auto'/>
+      <Link href="/" className='w:w-[2rem] xl:w-auto'>
+      <Image src={logo} alt='main logo' className=' object-contain w-[2rem] h-[2rem]   md:w-auto md:h-auto'/>
       </Link>
+    </div>
     </div>
 
     <div className={` fixed  transition-transform ${menu? 'translate-x-0':'-translate-x-[400px]'} xl:translate-x-0 h-screen xl:h-auto p-4 xl:p-0  left-0 top-0 z-30 bg-white xl:static `}>
@@ -56,7 +58,7 @@ const Navbar = () => {
     <div className='  md:w-auto flex  items-center gap-2 md:gap-[24px]' >
       <div className='relative flex items-center mx-auto md:m-0'>
         <FaSearch className='absolute left-2' />
-        <input type="text" placeholder="Search" className='border w-[200px] md:w-auto border-[#C6C6C6] md:border-black h-[40px] py-2 pl-6 pr-2 rounded-s-[16px] rounded-e-[16px] md:rounded-e-none focus:outline-none ' />
+        <input type="text" placeholder="Search" className='border w-[150px] md:w-auto border-[#C6C6C6] md:border-black h-[40px] py-2 pl-6 pr-2 rounded-s-[16px] rounded-e-[16px] md:rounded-e-none focus:outline-none ' />
         <button className=' hidden md:block bg-[#222222] px-2 py-2 h-[40px] w-[78px] rounded-e-[16px] text-white '><FaSearch className='  mx-auto font-thin' /></button>
       </div>
 
