@@ -9,15 +9,21 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import RegisterMenu from './RegisterMenu'
 import { useState } from 'react'
 import { MdOutlineClose } from "react-icons/md";
+import More from './More'
 
 const Navbar = () => {
   const [reg,setReg] = useState(false)
   const [menu,setMenu] = useState(false)
+  const [more,setMore] = useState(false)
   const handleRegistMenu = ()=>{
     setReg(!reg)
   }
   const handleMenu = () =>{
     setMenu(!menu)
+  }
+
+  const handleMore = () =>{
+    setMore(!more)
   }
   
   return (
@@ -51,7 +57,10 @@ const Navbar = () => {
         <li className=' cursor-pointer'>Women</li>
         <li className=' cursor-pointer'>Kids</li>
         <li className=' cursor-pointer'>Accessories</li>
-        <li className='flex items-center gap-[4px] cursor-pointer'> More <FaAngleDown /> </li>
+        <li className='flex items-center gap-[4px] cursor-pointer' onClick={handleMore}>
+           More {reg ? <FaAngleUp />: <FaAngleDown />} 
+           <More  moreDisplay={more} />
+           </li>
       </ul>
     </div>
 
